@@ -24,4 +24,3 @@ if x == -11.3 or z == 11.3:
 else:
     result = (x / (x + 11.3)) + (y / (z - 11.3))
     print(f"Result: {result}")
-
