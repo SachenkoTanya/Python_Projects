@@ -11,7 +11,7 @@ def get_float_input(message):
             value = float(input(message))
             return value
         except ValueError:
-            print("Please enter a valid number!")
+            print('Please enter a valid number!')
 
 
 INPUT_MESSAGE = 'Input  {}  please: '
@@ -21,6 +21,5 @@ z = get_float_input(INPUT_MESSAGE.format('z'))
 
 if x == -11.3 or z == 11.3:
     raise Exception('Error!!!')
-else:
-    result = (x / (x + 11.3)) + (y / (z - 11.3))
-    print(f"Result: {result}")
+result = (x / (x + 11.3)) + (y / (z - 11.3))
+print(f'Result: {result}')
