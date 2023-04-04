@@ -24,12 +24,12 @@ while n <= 13:
     n += 1
 
 # Display the result
-print('The sum of the first 13 members of the series: ', row_sum)
+print(f'The sum of the first 13 members of the series: {row_sum}')
 
 # 2 part
 n = get_number('Enter an integer: ', int)
 count = int(math.log10(n)) + 1
-print('The number of digits in the entered number:', count)
+print(f'The sum of the first 13 members of the series: {count}')
 
 # 3 part
 n = get_number('Enter a number: ', float)
