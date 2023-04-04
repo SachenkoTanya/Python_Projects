@@ -21,4 +21,4 @@ jobs:
           pytest
       - name: linter
         run:
-          prospector --profile ..prospector.yaml
+          prospector --profile .prospector.yaml
