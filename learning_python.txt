@@ -1,0 +1,3 @@
+In Java, you can use various libraries for data analysis, machine learning, and web development.
+In Java, you can handle exceptions with try-except blocks to gracefully handle errors in your code.
+In Java, you can create classes and objects.
