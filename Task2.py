@@ -20,6 +20,6 @@ y = get_float_input(INPUT_MESSAGE.format('y'))
 z = get_float_input(INPUT_MESSAGE.format('z'))
 
 if x == -11.3 or z == 11.3:
-    raise Exception('Error!!!')
+    raise ValueError('Error!!!')
 result = (x / (x + 11.3)) + (y / (z - 11.3))
 print(f'Result: {result}')
